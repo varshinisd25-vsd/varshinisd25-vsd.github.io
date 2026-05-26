@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stone Paper Scissors | Varshini S D</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="game.css" />
+</head>
+<body>
+  <main class="game-shell">
+    <a class="back-link" href="index.html">Back to Portfolio</a>
+
+    <section class="game-card" aria-labelledby="game-title">
+      <p class="eyebrow">1st Semester AAT Project</p>
+      <h1 id="game-title">Stone Paper Scissors</h1>
+      <p class="intro">
+        Choose stone, paper, or scissors and play against the computer.
+      </p>
+
+      <div class="score-board" aria-label="Score board">
+        <div>
+          <span id="player-score">0</span>
+          <p>You</p>
+        </div>
+        <div>
+          <span id="computer-score">0</span>
+          <p>Computer</p>
+        </div>
+      </div>
+
+      <div class="choice-row" aria-label="Game choices">
+        <button class="choice-button" type="button" data-choice="stone">
+          <span>Stone</span>
+        </button>
+        <button class="choice-button" type="button" data-choice="paper">
+          <span>Paper</span>
+        </button>
+        <button class="choice-button" type="button" data-choice="scissors">
+          <span>Scissors</span>
+        </button>
+      </div>
+
+      <div class="result-panel" aria-live="polite">
+        <p id="round-text">Make your first move.</p>
+        <div class="moves">
+          <span id="player-move">You: -</span>
+          <span id="computer-move">Computer: -</span>
+        </div>
+      </div>
+
+      <button class="reset-button" type="button" id="reset-game">Reset Game</button>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
