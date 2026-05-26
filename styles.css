@@ -280,7 +280,6 @@ h1 {
 .education-card,
 .hobby-card,
 .project-card,
-.personal-card,
 .linkedin-card,
 .social-card,
 .contact-card {
@@ -295,7 +294,6 @@ h1 {
 .education-card:hover,
 .hobby-card:hover,
 .project-card:hover,
-.personal-card:hover,
 .linkedin-card:hover,
 .social-card:hover,
 .contact-card:hover {
@@ -412,18 +410,6 @@ h1 {
 .project-body a:hover {
   color: var(--primary-dark);
   transform: translateX(4px);
-}
-
-.personal-card {
-  padding: clamp(22px, 4vw, 34px);
-  color: var(--muted);
-  font-size: clamp(1.1rem, 2vw, 1.35rem);
-  font-weight: 700;
-  line-height: 1.7;
-}
-
-.personal-card p {
-  margin: 0;
 }
 
 .linkedin-card,
