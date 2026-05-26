@@ -390,6 +390,12 @@ h1 {
     url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80");
 }
 
+.project-memory {
+  background:
+    linear-gradient(rgba(15, 118, 110, 0.16), rgba(219, 39, 119, 0.14)),
+    url("https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=900&q=80");
+}
+
 .project-three {
   background:
     linear-gradient(rgba(31, 41, 51, 0.12), rgba(31, 41, 51, 0.12)),

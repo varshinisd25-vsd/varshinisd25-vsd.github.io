@@ -1,25 +1,33 @@
 # Varshini Shetty Portfolio
 
-A simple static portfolio website built with HTML and CSS.
+A simple public portfolio website built with HTML, CSS, and JavaScript.
+
+## Public Website
+Visit the live site at:
+
+```text
+https://varshinisd25-vsd.github.io/
+```
 
 ## Preview
-Open `index.html` locally or run a local server in the `VAR` folder:
+Open `index.html` locally or run a local server in this folder:
 
 ```powershell
-Set-Location -Path 'c:\Varshini\VAR'
+Set-Location -Path 'c:\Users\smile\Downloads\Varshu'
 python -m http.server 8000
 ```
 
 Then visit `http://127.0.0.1:8000`.
 
 ## Deploy to GitHub Pages
-1. Create a new GitHub repository for the site.
-2. Add a remote and push the branch:
+This project uses the GitHub Pages repository:
 
-```powershell
-git remote add origin https://github.com/varshinisd25-vsd/<repo-name>.git
-git branch -M main
-git push -u origin main
+```text
+https://github.com/varshinisd25-vsd/varshinisd25-vsd.github.io
 ```
 
-3. Enable GitHub Pages from the repository settings, using the `main` branch root.
+To publish updates, commit your changes and push to `main`:
+
+```powershell
+git push -u origin main
+```

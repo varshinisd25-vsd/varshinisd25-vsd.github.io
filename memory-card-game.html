@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memory Card Game | Varshini S D</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="memory.css" />
+</head>
+<body>
+  <main class="memory-shell">
+    <a class="back-link" href="index.html">Back to Portfolio</a>
+
+    <section class="memory-game" aria-labelledby="game-title">
+      <div class="game-header">
+        <div>
+          <p class="eyebrow">Memory Challenge</p>
+          <h1 id="game-title">Memory Card Game</h1>
+          <p class="intro">Match all the hidden pairs with the fewest moves and beat your best time.</p>
+        </div>
+
+        <div class="stats" aria-label="Game stats">
+          <div>
+            <span id="moves">0</span>
+            <p>Moves</p>
+          </div>
+          <div>
+            <span id="timer">00:00</span>
+            <p>Time</p>
+          </div>
+          <div>
+            <span id="matches">0/8</span>
+            <p>Pairs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="memory-board" id="memory-board" aria-label="Memory cards"></div>
+
+      <div class="message-panel" aria-live="polite">
+        <p id="status-text">Flip any two cards to find a matching pair.</p>
+        <button class="reset-button" id="reset-game" type="button">New Game</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="memory.js"></script>
+</body>
+</html>
