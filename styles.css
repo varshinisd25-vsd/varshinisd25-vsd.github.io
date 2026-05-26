@@ -33,10 +33,11 @@ body {
   font-family: "Inter", Arial, sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at 12% 18%, rgba(255, 77, 166, 0.28) 0 2.2rem, transparent 2.25rem),
-    radial-gradient(circle at 88% 14%, rgba(244, 114, 182, 0.26) 0 1.8rem, transparent 1.85rem),
-    radial-gradient(circle at 78% 72%, rgba(225, 29, 72, 0.2) 0 2.6rem, transparent 2.65rem),
-    linear-gradient(135deg, rgba(255, 240, 246, 0.94), rgba(252, 231, 243, 0.88)),
+    radial-gradient(circle at 12% 18%, rgba(255, 77, 166, 0.34) 0 2.2rem, transparent 2.25rem),
+    radial-gradient(circle at 88% 14%, rgba(244, 114, 182, 0.3) 0 1.8rem, transparent 1.85rem),
+    radial-gradient(circle at 78% 72%, rgba(225, 29, 72, 0.24) 0 2.6rem, transparent 2.65rem),
+    radial-gradient(circle at 24% 82%, rgba(219, 39, 119, 0.22) 0 2rem, transparent 2.05rem),
+    linear-gradient(135deg, rgba(255, 240, 246, 0.9), rgba(252, 231, 243, 0.82)),
     url("https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1800&q=85");
   background-attachment: fixed;
   background-position: center;
