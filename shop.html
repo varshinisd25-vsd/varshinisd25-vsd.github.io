@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Siddarameshwara Provision Stores | Fresh Goods Price List</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="shop.css?v=shop-list-1" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">Siddarameshwara Provision Stores</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#goods">Goods</a>
+      <a href="#offers">Offers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Fresh groceries and daily essentials</p>
+        <h1>Siddarameshwara Provision Stores price list.</h1>
+        <p class="hero-text">
+          Browse rice, pulses, spices, dry fruits, and snacks with clear pricing
+          before you visit the shop.
+        </p>
+        <a class="button primary" href="#goods">View Price List</a>
+      </div>
+      <div class="hero-gallery" aria-label="Rice and dal products">
+        <figure>
+          <img src="https://cdn.pixabay.com/photo/2018/06/29/15/18/rice-3506194_1280.jpg" alt="White rice grains in a paper bag" />
+          <figcaption>Rice</figcaption>
+        </figure>
+        <figure>
+          <img src="https://cdn.pixabay.com/photo/2023/02/06/17/34/lentils-7772450_1280.jpg" alt="Orange lentils spilling from a cloth bag" />
+          <figcaption>Masoor Dal</figcaption>
+        </figure>
+        <figure>
+          <img src="https://cdn.pixabay.com/photo/2013/10/07/11/41/rice-191930_1280.jpg" alt="Jars filled with rice, lentils, and grains" />
+          <figcaption>Grains</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="summary-strip" aria-label="Shop highlights">
+      <article>
+        <span>12</span>
+        <p>Goods listed</p>
+      </article>
+      <article>
+        <span>500 g</span>
+        <p>Half kg prices</p>
+      </article>
+      <article>
+        <span>1 kg</span>
+        <p>Full kg prices</p>
+      </article>
+    </section>
+
+    <section id="goods" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Available goods</p>
+        <h2>Today&apos;s price list</h2>
+      </div>
+
+      <div class="shop-tools" aria-label="Goods filters">
+        <label class="search-box">
+          <span>Search item</span>
+          <input id="searchInput" type="search" placeholder="Search rice, dal, sugar..." />
+        </label>
+        <div class="category-tabs" aria-label="Filter by category">
+          <button class="active" type="button" data-category="all">All</button>
+          <button type="button" data-category="grains">Grains</button>
+          <button type="button" data-category="pulses">Pulses</button>
+          <button type="button" data-category="spices">Spices</button>
+          <button type="button" data-category="dry-fruits">Dry Fruits</button>
+          <button type="button" data-category="snacks">Snacks</button>
+        </div>
+      </div>
+
+      <div class="goods-grid" id="goodsGrid">
+        <article class="goods-card" data-category="grains" data-name="sona masoori rice">
+          <div>
+            <p class="goods-category">Grains</p>
+            <h3>Sona Masoori Rice</h3>
+            <p class="goods-note">Lightweight daily cooking rice</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 32</strong></span>
+            <span>1 kg <strong>Rs. 62</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="grains" data-name="basmati rice">
+          <div>
+            <p class="goods-category">Grains</p>
+            <h3>Basmati Rice</h3>
+            <p class="goods-note">Long grain rice for special dishes</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 75</strong></span>
+            <span>1 kg <strong>Rs. 145</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="grains" data-name="wheat flour atta">
+          <div>
+            <p class="goods-category">Grains</p>
+            <h3>Wheat Flour</h3>
+            <p class="goods-note">Fresh atta for chapati and roti</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 28</strong></span>
+            <span>1 kg <strong>Rs. 54</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="pulses" data-name="toor dal">
+          <div>
+            <p class="goods-category">Pulses</p>
+            <h3>Toor Dal</h3>
+            <p class="goods-note">Common dal for sambar and curry</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 78</strong></span>
+            <span>1 kg <strong>Rs. 152</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="pulses" data-name="moong dal">
+          <div>
+            <p class="goods-category">Pulses</p>
+            <h3>Moong Dal</h3>
+            <p class="goods-note">Easy to cook split yellow dal</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 66</strong></span>
+            <span>1 kg <strong>Rs. 128</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="pulses" data-name="chana dal">
+          <div>
+            <p class="goods-category">Pulses</p>
+            <h3>Chana Dal</h3>
+            <p class="goods-note">Good for snacks, dal, and sweets</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 48</strong></span>
+            <span>1 kg <strong>Rs. 94</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="spices" data-name="red chilli powder">
+          <div>
+            <p class="goods-category">Spices</p>
+            <h3>Red Chilli Powder</h3>
+            <p class="goods-note">Bright color and strong flavor</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 125</strong></span>
+            <span>1 kg <strong>Rs. 245</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="spices" data-name="turmeric powder">
+          <div>
+            <p class="goods-category">Spices</p>
+            <h3>Turmeric Powder</h3>
+            <p class="goods-note">Essential spice for daily cooking</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 82</strong></span>
+            <span>1 kg <strong>Rs. 160</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="spices" data-name="coriander powder">
+          <div>
+            <p class="goods-category">Spices</p>
+            <h3>Coriander Powder</h3>
+            <p class="goods-note">Fresh aroma for curries and masala</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 70</strong></span>
+            <span>1 kg <strong>Rs. 135</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="dry-fruits" data-name="almonds badam">
+          <div>
+            <p class="goods-category">Dry Fruits</p>
+            <h3>Almonds</h3>
+            <p class="goods-note">Crunchy badam for snacks and sweets</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 390</strong></span>
+            <span>1 kg <strong>Rs. 760</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="dry-fruits" data-name="cashew nuts kaju">
+          <div>
+            <p class="goods-category">Dry Fruits</p>
+            <h3>Cashew Nuts</h3>
+            <p class="goods-note">Whole kaju for sweets and snacks</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 430</strong></span>
+            <span>1 kg <strong>Rs. 840</strong></span>
+          </div>
+        </article>
+
+        <article class="goods-card" data-category="snacks" data-name="groundnut peanuts">
+          <div>
+            <p class="goods-category">Snacks</p>
+            <h3>Groundnut</h3>
+            <p class="goods-note">Roast-ready peanuts</p>
+          </div>
+          <div class="price-row">
+            <span>500 g <strong>Rs. 58</strong></span>
+            <span>1 kg <strong>Rs. 112</strong></span>
+          </div>
+        </article>
+      </div>
+
+      <p class="empty-message" id="emptyMessage">No goods found. Try another search.</p>
+    </section>
+
+    <section id="offers" class="section offer-section">
+      <div class="section-heading">
+        <p class="eyebrow">Shop notice</p>
+        <h2>Prices can be changed anytime</h2>
+      </div>
+      <p class="section-copy">
+        Please confirm the final price in the shop before buying. Add your real
+        shop address, phone number, and exact rates when ready.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Visit the shop</h2>
+        <p class="section-copy">
+          Siddarameshwara Provision Stores, Main Road, Srirampura,
+          Hosadurga Taluk, Chitradurga District 577542. Open daily from
+          8:00 AM to 9:00 PM.
+        </p>
+      </div>
+      <div class="contact-card">
+        <a href="tel:+919449896564">+91 94498 96564</a>
+        <a href="mailto:dattatreyashettys@gamil.com">dattatreyashettys@gamil.com</a>
+        <span>Cash, UPI, and card accepted</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Siddarameshwara Provision Stores. All rights reserved.</p>
+  </footer>
+
+  <script src="shop.js"></script>
+</body>
+</html>
